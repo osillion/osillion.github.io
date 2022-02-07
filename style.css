@@ -1,0 +1,368 @@
+* {
+margin: 0;
+padding:0;
+}
+
+html{
+
+  background-image: url(wp3006120.jpg);
+  background-attachment: fixed;
+  animation: fadeIn linear 2.5s;
+
+}
+
+@font-face { font-family: Other; src: url('Louis George Cafe.ttf'); } 
+
+
+
+
+
+.navbar{
+
+  font-family: Other; 
+  background-color: rgb(42, 48, 54);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+  width: 100%;
+  
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  transition: 0.3s;
+  
+  
+ 
+  
+  
+
+
+}
+
+
+
+.navtext {
+
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: 1em;
+
+  
+  
+
+
+
+  
+}
+
+
+
+nav a{
+
+  float: right;
+  display: block;
+  text-align: center;
+  padding: .6em;
+  text-decoration: none;
+  margin-right:.4em;
+  padding-top:1em;
+  
+ 
+  
+}
+
+nav a:link {
+  color: lightskyblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: lightskyblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-shadow: 0 0 7px rgb(255, 255, 255);
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-color: lightskyblue;
+  border-bottom-width: 1px;
+ 
+  
+}
+
+nav a:active {
+   text-shadow: 0 0 7px rgb(255, 255, 255);
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-color: lightskyblue;
+  border-bottom-width: 1px;
+ 
+  
+}
+
+
+body {
+
+  
+  clear: both;
+  margin-bottom: 5em;
+  margin-top: 5em;
+  
+
+}
+
+
+.centerDiv{
+
+  width: 80%;
+  height:auto;
+  margin: 0 auto;
+   display: flex; 
+  text-align: center;
+   margin-top: 5em;
+
+
+}
+
+.div1{
+  
+  flex: 50%;
+  margin-left: auto;
+
+}
+    
+.div2{
+      
+  
+  flex: 50%;
+  margin-right: auto
+    
+}
+
+
+
+top h2{
+
+  color:white ;
+  font-family: Other; 
+  padding:1.2em ;
+  
+  margin-bottom: 4em ;
+  margin-top: 4em ;
+  border-style: double solid double solid ;
+  border-color: gray ;
+  border-width: .11em ;
+  border-radius: .6em;
+  max-width: 600px;
+  height: auto ;
+  background-color:rgb(42, 48, 54) ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7) ;
+  
+
+}
+
+top img{
+
+  
+  border-style: double solid double solid ;
+  border-color: gray ;
+  border-width: 3px;
+  border-radius: 200px;
+  max-width: 200px;
+  height: auto ;
+  background-color:rgb(42, 48, 54) ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7) ;
+  margin-bottom: 1em ;
+  margin-top: 4em ;
+  
+
+  
+
+}
+
+
+
+
+
+
+#mainIntro{
+
+  text-indent: 2em;
+  color:white;
+  padding: 1.2em;
+  font-family: Other; 
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgb(42, 48, 54);
+  max-width: 600px;
+  margin-top: 4em;
+  clear: both;
+  
+
+  
+
+}
+
+
+
+
+
+
+
+
+.row {
+  display: flex;
+}
+
+
+
+.column{
+
+  flex: 50%;
+ 
+  color:white;
+  
+  
+  font-family: Other; 
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgb(42, 48, 54);
+  max-width: 600px;
+  margin-top: 4em;
+  clear: both;
+  border-style: double solid double solid;
+  border-color: gray;
+  border-width: .11em;
+  border-radius: .6em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+  padding-bottom: 2.7em;
+
+
+}
+
+.column h2 {
+
+  color: white;
+  
+
+  
+  text-align: center;
+  font-family: Other;
+
+}
+
+.validate{
+
+  color: white;
+  
+
+  font-style: italic;
+  text-align: center;
+  font-family: Other;
+
+}
+
+
+.column ul h2{
+
+  text-decoration-line: underline;
+  text-align: center;
+  padding-top: 1.5em;
+  
+}
+
+.column ul li {
+
+  list-style-type: circle;
+  margin-left: 2em;
+  padding-top:.7em;
+  font-weight: bold;
+  
+}
+
+.column ul li p{
+
+  padding-top: .7em;
+
+}
+
+.column a:link {
+  color: lightskyblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.column a:visited {
+  color: lightskyblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.column a:hover {
+  color: lightskyblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.column a:active {
+  color: lightskyblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.subList li{
+
+  list-style-type: none !important;
+  font-style: italic;
+  font-weight: normal !important;
+
+}
+
+#listG {
+
+  color: gold !important;
+}
+
+.highlightme{
+
+  color: rgb(135,206,250);
+  border-style: solid;
+  border-width: 0 0 0.5px 0;
+  border-color: lightskyblue;
+  font-weight: bold;
+
+}
+
+.redUn {
+
+  color:rgb(255, 76, 76);
+  border-style: solid;
+  border-width: 0 0 0.5px 0;
+  border-color: rgb(255, 76, 76);
+  font-weight: bold;
+
+}
+
+
+
+
+
+
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  70% {opacity:1;}
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
